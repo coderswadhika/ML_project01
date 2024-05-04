@@ -39,3 +39,38 @@ git log
 To create version/commit all changes by git:
 git commit -m "message"
 ...
+
+To send versuin or changes to github:
+git push origin main
+...
+
+To check remote url:
+git remote -v
+...
+
+To setup CI/CD pipeline in Heroku we need 3 informations
+1. Heroku_Email = 
+2. Heroku_API_key = 
+3. Heroku_app_name = 
+...
+
+Build DOCKER image
+ docker build -t <image name>:<tagname>
+...
+
+Note: Image name for docker must be in lowercase
+
+To list docker images
+docker images
+...
+
+Run docker image 
+docker run -p 5000:5000 -e PORT=5000 52a7dc881169(image id)
+
+To check running container in docker
+docker ps
+...
+
+To stop docker container
+docker stop container_id
+...
