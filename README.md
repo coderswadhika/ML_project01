@@ -4,8 +4,9 @@
 
 1. [Github account](https://github.com)
 2. [Heroku account](https://dashboard.heroku.com/login)
-3. [VS Code](https://code.visualstudio.com/download)
+3. [VS Code IDE](https://code.visualstudio.com/download)
 4. [GIT cli](https://git-scm.com/downloads)
+5. [GIT Documentation]()
 
 Creating conda enviroment:  
 conda create -p venv python==3.12.2 -y
@@ -73,4 +74,9 @@ docker ps
 
 To stop docker container
 docker stop container_id
+...
+
+Automatically install all the libraries tha we have 
+mentioned in requirements.txt
+Python setup.py install
 ...
