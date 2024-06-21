@@ -56,7 +56,7 @@ To setup CI/CD pipeline in Heroku we need 3 informations
 ...
 
 Build DOCKER image
- docker build -t <image name>:<tagname>
+docker build -t <image name>:<tagname>
 ...
 
 Note: Image name for docker must be in lowercase
@@ -66,7 +66,7 @@ docker images
 ...
 
 Run docker image 
-docker run -p 5000:5000 -e PORT=5000 52a7dc881169(image id)
+docker run -p 5000:5000 -e PORT=5000 (image id)
 
 To check running container in docker
 docker ps
