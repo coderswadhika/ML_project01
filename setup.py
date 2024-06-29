@@ -4,7 +4,7 @@ from typing import List
 
 # Declaring variables for set functions
 PROJECT_NAME = "housing-predictor"
-VERSION = "0.0.4"
+VERSION = "0.0.5"
 AUTHOR = "Swadhika Mishra"
 DESCRIPTION = "This is a first FSDS nov batch Machine learning project"
 REQUIREMENT_FILE_NAME = 'requirements.txt'

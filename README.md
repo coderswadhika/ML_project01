@@ -9,7 +9,7 @@
 5. [GIT Documentation]()
 
 Creating conda enviroment:  
-conda create -p venv python==3.12.2 -y
+conda create -p venv python==3.12.4 -y
 ...
 
 Activating conda enviroment:
